@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Custom Css */
+:root {
+    --main-color: #FEA301;
+    --second-color: #01ACFD;
+    --third-color: #05D4DF;
+    --fourth-color: #5D58EF;
+}
+
+/* common css */
+
+/* header section */
+
