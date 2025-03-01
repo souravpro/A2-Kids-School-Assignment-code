@@ -6,6 +6,11 @@
     font-family: "Quicksand", sans-serif;
 }
 
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 /* Custom Css */
 :root {
     --main-color: #FEA301;
@@ -14,7 +19,85 @@
     --fourth-color: #5D58EF;
 }
 
+.orange {
+    color: var(--main-color);
+}
+.sky-blue {
+    color: var(--second-color);
+}
+.light-blue {
+    color: var(--third-color);
+}
+.purple {
+    color: var(--fourth-color);
+}
+
 /* common css */
 
 /* header section */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    margin: 20px auto;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo .brand-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.mainmenu {
+    display: flex;
+    list-style: none;
+}
+.mainmenu li {
+    margin-left: 40px;
+}
+.mainmenu li a {
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    margin: 0 auto;
+}
+.hero-content {
+    width: 50%;
+}
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 
