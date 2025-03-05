@@ -39,7 +39,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1160px;
+    width: 90%;
     margin: 20px auto;
 
 }
@@ -77,12 +77,22 @@ header nav {
     font-weight: 700;
 }
 
+/* .menu-right {
+    display: flex;
+    align-items: center;
+} */
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 /* hero section */
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1160px;
+    width: 90%;
     margin: 0 auto;
 }
 .hero-content {
@@ -100,4 +110,52 @@ header nav {
     margin-bottom: 20px;
 }
 
+
+
+/* Media Queries */
+
+/* For Mobile */
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 600px;
+    }
+    .logo .brand-name {
+        display: none;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+   
+    .hero {
+        flex-direction: column-reverse;
+    }
+    .hero-img img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    header nav {
+        position: relative;
+        border-bottom: 1px solid var(--main-color);
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    
+}
 
